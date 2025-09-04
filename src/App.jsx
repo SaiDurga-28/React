@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import NameComponent from './NameComponent'
-import EmailComponent from './EmailComponent'
-import GenderComponent from './GenderComponent'
+// import NameComponent from './NameComponent'
+// import EmailComponent from './EmailComponent'
+// import GenderComponent from './GenderComponent'
 import './App.css'
-import SkillsComponent from './SkillsComponent'
-import NumberComponent from './NumberComponent'
-import SubmitComponent from './SubmitComponent'
+import FormComponent from './FormComponent'
+// import SkillsComponent from './SkillsComponent'
+// import NumberComponent from './NumberComponent'
+// import SubmitComponent from './SubmitComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -35,12 +36,13 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
       {/* <h1>App.jsx</h1> */}
-      <NameComponent />
+      {/* <NameComponent />
       <NumberComponent />
       <EmailComponent />
       <GenderComponent />
       <SkillsComponent />
-      <SubmitComponent />
+      <SubmitComponent /> */}
+      <FormComponent />
     </>
   )
 }
