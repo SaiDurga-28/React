@@ -1,18 +1,29 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import Myimage from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import NameComponent from './NameComponent'
 // import EmailComponent from './EmailComponent'
 // import GenderComponent from './GenderComponent'
 import './App.css'
-import FormComponent from './FormComponent'
+import FunctionalComponent from './FunctionComponent.jsx'
+// import FormComponent from './FormComponent'
 // import SkillsComponent from './SkillsComponent'
 // import NumberComponent from './NumberComponent'
 // import SubmitComponent from './SubmitComponent'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  // const [count, setCount] = useState(0)
+  var mycards=[
+    {"image":Myimage,
+    "price":1500,
+    "brand":"Adidas"},
+     {"image":Myimage,
+    "price":2000,
+    "brand":"Puma"},
+     {"image":Myimage,
+    "price":1200,
+    "brand":"RareRabbit"}
+  ]
   return (
     <>
       {/* <div>
@@ -42,7 +53,13 @@ function App() {
       <GenderComponent />
       <SkillsComponent />
       <SubmitComponent /> */}
-      <FormComponent />
+      <div className="parent">
+      {
+        mycards.map(ele=>{
+           return <FunctionalComponent data={ele}/>
+        })
+}
+</div>
     </>
   )
 }
