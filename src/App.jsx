@@ -5,7 +5,10 @@ import viteLogo from '/vite.svg'
 // import EmailComponent from './EmailComponent'
 // import GenderComponent from './GenderComponent'
 import './App.css'
-import FunctionalComponent from './FunctionComponent.jsx'
+import Component1 from './Component1'
+import Component2 from './Component2'
+import Component from './Component'
+// import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
 // import SkillsComponent from './SkillsComponent'
 // import NumberComponent from './NumberComponent'
@@ -13,17 +16,32 @@ import FunctionalComponent from './FunctionComponent.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
-  var mycards=[
-    {"image":Myimage,
-    "price":1500,
-    "brand":"Adidas"},
-     {"image":Myimage,
-    "price":2000,
-    "brand":"Puma"},
-     {"image":Myimage,
-    "price":1200,
-    "brand":"RareRabbit"}
-  ]
+  // var mycards=[
+  //   {"image":Myimage,
+  //   "price":1500,
+  //   "brand":"Adidas"},
+  //    {"image":Myimage,
+  //   "price":2000,
+  //   "brand":"Puma"},
+  //    {"image":Myimage,
+  //   "price":1200,
+  //   "brand":"RareRabbit"}
+  // ]
+  var x=true;
+  // if(x==true){
+  //   return(
+  //     <>
+  //     <Component1/>
+  //     </>
+  //   )
+  // }
+  // else{
+  //   return(
+  //     <>
+  //     <Component1/>
+  //     </>
+  //   )
+  // }
   return (
     <>
       {/* <div>
@@ -53,13 +71,19 @@ function App() {
       <GenderComponent />
       <SkillsComponent />
       <SubmitComponent /> */}
-      <div className="parent">
+      {/* <div className="parent">
       {
         mycards.map(ele=>{
            return <FunctionalComponent data={ele}/>
         })
 }
-</div>
+</div> */}
+<Component1/>
+<Component2/>
+{
+  x==false ? <Component1/> : <Component2/>
+}
+{/* <Component/> */}
     </>
   )
 }
