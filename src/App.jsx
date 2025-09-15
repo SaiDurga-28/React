@@ -78,12 +78,12 @@ function App() {
         })
 }
 </div> */}
-<Component1/>
+{/* <Component1/>
 <Component2/>
 {
   x==false ? <Component1/> : <Component2/>
-}
-{/* <Component/> */}
+} */}
+<Component/>
     </>
   )
 }
