@@ -8,6 +8,7 @@ import './App.css'
 import Component1 from './Component1'
 import Component2 from './Component2'
 import Component from './Component'
+import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
 // import SkillsComponent from './SkillsComponent'
@@ -83,7 +84,8 @@ function App() {
 {
   x==false ? <Component1/> : <Component2/>
 } */}
-<Component/>
+{/* <Component/> */}
+<Hook_useState />
     </>
   )
 }
