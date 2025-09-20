@@ -8,7 +8,8 @@ import './App.css'
 import Component1 from './Component1'
 import Component2 from './Component2'
 import Component from './Component'
-import Hook_useState from './Hook_useState'
+import Hook_1_Task_Cards from './Hook_1_Task_Cards'
+// import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
 // import SkillsComponent from './SkillsComponent'
@@ -28,7 +29,7 @@ function App() {
   //   "price":1200,
   //   "brand":"RareRabbit"}
   // ]
-  var x=true;
+  // var x=true;
   // if(x==true){
   //   return(
   //     <>
@@ -85,7 +86,8 @@ function App() {
   x==false ? <Component1/> : <Component2/>
 } */}
 {/* <Component/> */}
-<Hook_useState />
+{/* <Hook_useState /> */}
+<Hook_1_Task_Cards/>
     </>
   )
 }
