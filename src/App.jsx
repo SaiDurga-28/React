@@ -9,6 +9,7 @@ import Component1 from './Component1'
 import Component2 from './Component2'
 import Component from './Component'
 import Hook_1_Task_Cards from './Hook_1_Task_Cards'
+import UseStateArrayExample from './UseStateArrayExample'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -87,7 +88,8 @@ function App() {
 } */}
 {/* <Component/> */}
 {/* <Hook_useState /> */}
-<Hook_1_Task_Cards/>
+{/* <Hook_1_Task_Cards/> */}
+<UseStateArrayExample/>
     </>
   )
 }
