@@ -12,6 +12,7 @@ import Hook_1_Task_Cards from './Hook_1_Task_Cards'
 import UseStateArrayExample from './UseStateArrayExample'
 import Hook2 from './UseEffectExample'
 import Search from './CardsSearchTask.jsx'
+import HookUseEffect from './UseEffectExample_2.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -93,7 +94,8 @@ function App() {
 {/* <Hook_1_Task_Cards/> */}
 {/* <UseStateArrayExample/> */}
 {/* <Hook2/> */}
-<Search />
+{/* <Search /> */}
+<HookUseEffect/>
     </>
   )
 }
