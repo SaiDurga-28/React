@@ -13,6 +13,8 @@ import UseStateArrayExample from './UseStateArrayExample'
 import Hook2 from './UseEffectExample'
 import Search from './CardsSearchTask.jsx'
 import HookUseEffect from './UseEffectExample_2.jsx'
+import TodoList from './TodoList_Task.jsx'
+import Routing_Mechanism from './Routing_Mechanism.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -95,7 +97,8 @@ function App() {
 {/* <UseStateArrayExample/> */}
 {/* <Hook2/> */}
 {/* <Search /> */}
-<HookUseEffect/>
+{/* <TodoList/> */}
+<Routing_Mechanism/>
     </>
   )
 }
