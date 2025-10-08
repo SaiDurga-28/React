@@ -15,6 +15,7 @@ import Search from './CardsSearchTask.jsx'
 import HookUseEffect from './UseEffectExample_2.jsx'
 import TodoList from './TodoList_Task.jsx'
 import Routing_Mechanism from './Routing_Mechanism.jsx'
+import RoutingPassingData from './RoutingPassingData.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -98,7 +99,8 @@ function App() {
 {/* <Hook2/> */}
 {/* <Search /> */}
 {/* <TodoList/> */}
-<Routing_Mechanism/>
+{/* <Routing_Mechanism/> */}
+<RoutingPassingData/>
     </>
   )
 }
