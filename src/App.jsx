@@ -16,6 +16,8 @@ import HookUseEffect from './UseEffectExample_2.jsx'
 import TodoList from './TodoList_Task.jsx'
 import Routing_Mechanism from './Routing_Mechanism.jsx'
 import RoutingPassingData from './RoutingPassingData.jsx'
+import ImageEntity_TemporaryPath from './ImageEntity_TemporaryPath.jsx'
+import ImageEntity_Base64 from './ImageEntity_Base64.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -100,7 +102,9 @@ function App() {
 {/* <Search /> */}
 {/* <TodoList/> */}
 {/* <Routing_Mechanism/> */}
-<RoutingPassingData/>
+{/* <RoutingPassingData/> */}
+{/* <ImageEntity_TemporaryPath/> */}
+<ImageEntity_Base64/>
     </>
   )
 }
