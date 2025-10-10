@@ -18,6 +18,12 @@ import Routing_Mechanism from './Routing_Mechanism.jsx'
 import RoutingPassingData from './RoutingPassingData.jsx'
 import ImageEntity_TemporaryPath from './ImageEntity_TemporaryPath.jsx'
 import ImageEntity_Base64 from './ImageEntity_Base64.jsx'
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Page1 from "./Page1.jsx";
+import Page2 from "./Page2.jsx";
+import Store from "./Store.jsx";
+import Task from './Task.jsx'
+import Forms from './Forms.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -26,6 +32,7 @@ import ImageEntity_Base64 from './ImageEntity_Base64.jsx'
 // import SubmitComponent from './SubmitComponent'
 
 function App() {
+  //  const [Count ,setCount] = useState(0)
   // const [count, setCount] = useState(0)
   // var mycards=[
   //   {"image":Myimage,
@@ -104,7 +111,19 @@ function App() {
 {/* <Routing_Mechanism/> */}
 {/* <RoutingPassingData/> */}
 {/* <ImageEntity_TemporaryPath/> */}
-<ImageEntity_Base64/>
+{/* <ImageEntity_Base64/> */}
+ {/* <Store.Provider value={{Count,setCount}}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Page1 />} />
+          <Route path="/page2" element={<Page2 />} />
+        </Routes>
+      </BrowserRouter>
+  </Store.Provider> */}
+  <div>
+    <Task/>
+    {/* <Forms/> */}
+  </div>
     </>
   )
 }
