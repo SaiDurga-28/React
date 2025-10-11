@@ -23,7 +23,8 @@ import Page1 from "./Page1.jsx";
 import Page2 from "./Page2.jsx";
 import Store from "./Store.jsx";
 import Task from './Task.jsx'
-import Forms from './Forms.jsx'
+import Cards from './Cards.jsx'
+import Task1 from './Task1.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -109,7 +110,7 @@ function App() {
 {/* <Search /> */}
 {/* <TodoList/> */}
 {/* <Routing_Mechanism/> */}
-{/* <RoutingPassingData/> */}
+<RoutingPassingData/>
 {/* <ImageEntity_TemporaryPath/> */}
 {/* <ImageEntity_Base64/> */}
  {/* <Store.Provider value={{Count,setCount}}>
@@ -120,10 +121,10 @@ function App() {
         </Routes>
       </BrowserRouter>
   </Store.Provider> */}
-  <div>
+  {/* <div>
     <Task/>
-    {/* <Forms/> */}
-  </div>
+    <Cards/>
+  </div> */}
     </>
   )
 }
