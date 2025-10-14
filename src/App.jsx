@@ -25,6 +25,12 @@ import Store from "./Store.jsx";
 import Task from './Task.jsx'
 import Cards from './Cards.jsx'
 import Task1 from './Task1.jsx'
+import AddOn_CountUp from './Add-Ons-ReactCountUp.jsx'
+import AddOn_Tilty from './Add-Ons-ReactTilty.jsx'
+import AddOn_Toast from './Add-Ons-ReactToastify.jsx'
+import AddOn_Spinner from './Add-Ons-ReactSpinner.jsx'
+import AddOn_Confetti from './Add-Ons-ReactConfetti.jsx'
+import AddOn_Carousels from './Add-Ons-CarouselsBootstrap.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -110,7 +116,7 @@ function App() {
 {/* <Search /> */}
 {/* <TodoList/> */}
 {/* <Routing_Mechanism/> */}
-<RoutingPassingData/>
+{/* <RoutingPassingData/> */}
 {/* <ImageEntity_TemporaryPath/> */}
 {/* <ImageEntity_Base64/> */}
  {/* <Store.Provider value={{Count,setCount}}>
@@ -125,6 +131,13 @@ function App() {
     <Task/>
     <Cards/>
   </div> */}
+  <Task1/>
+  {/* <AddOn_CountUp/> */}
+  {/* <AddOn_Tilty/> */}
+  {/* <AddOn_Toast/> */}
+  {/* <AddOn_Spinner/> */}
+  {/* <AddOn_Confetti/> */}
+  {/* <AddOn_Carousels/> */}
     </>
   )
 }
