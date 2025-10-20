@@ -31,6 +31,7 @@ import AddOn_Toast from './Add-Ons-ReactToastify.jsx'
 import AddOn_Spinner from './Add-Ons-ReactSpinner.jsx'
 import AddOn_Confetti from './Add-Ons-ReactConfetti.jsx'
 import AddOn_Carousels from './Add-Ons-CarouselsBootstrap.jsx'
+import ClickCounter from './ClickCounter.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -131,6 +132,7 @@ function App() {
     <Task/>
     <Cards/>
   </div> */}
+  {/* <ClickCounter/> */}
   <Task1/>
   {/* <AddOn_CountUp/> */}
   {/* <AddOn_Tilty/> */}
