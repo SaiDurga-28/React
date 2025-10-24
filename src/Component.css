@@ -52,3 +52,38 @@
 .bg-red{
     background-color: red;
 }
+img{
+   width: 600px;
+   height: 300px;
+}
+.box1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 50px;
+}
+/* .box11{
+   display: flex;
+   flex-wrap: wrap;
+   /* background-color: rgb(1, 1, 60); */
+/* } */ */
+.box2{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 50px;
+   /* background-color: rgb(167, 171, 234); */
+}
+.box3{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 80px;
+   /* background-color: rgb(167, 171, 234); */
+}
+.text{
+   font-size: 15px;
+   letter-spacing: 1;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   text-align: left;
+}
