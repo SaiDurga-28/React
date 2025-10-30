@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 // import NameComponent from './NameComponent'
 // import EmailComponent from './EmailComponent'
 // import GenderComponent from './GenderComponent'
-import './App.css'
+// import './App.css'
 import Component1 from './Component1'
 import Component2 from './Component2'
 import Component from './Component'
@@ -32,6 +32,9 @@ import AddOn_Spinner from './Add-Ons-ReactSpinner.jsx'
 import AddOn_Confetti from './Add-Ons-ReactConfetti.jsx'
 import AddOn_Carousels from './Add-Ons-CarouselsBootstrap.jsx'
 import ClickCounter from './ClickCounter.jsx'
+import ApexChartDemo from './ApexChartDemo.jsx'
+import Dashboard from './Dashboard.jsx'
+import PlacementsDashboard from './PlacementsDashboard.jsx'
 // import Hook_useState from './Hook_useState'
 // import FunctionalComponent from './FunctionComponent.jsx'
 // import FormComponent from './FormComponent'
@@ -133,13 +136,16 @@ function App() {
     <Cards/>
   </div> */}
   {/* <ClickCounter/> */}
-  <Task1/>
+  {/* <Task1/> */}
   {/* <AddOn_CountUp/> */}
   {/* <AddOn_Tilty/> */}
   {/* <AddOn_Toast/> */}
   {/* <AddOn_Spinner/> */}
   {/* <AddOn_Confetti/> */}
   {/* <AddOn_Carousels/> */}
+  {/* <ApexChartDemo/> */}
+  {/* <Dashboard/> */}
+  <PlacementsDashboard/>
     </>
   )
 }
